@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Louis D\'hauwe' => 'louisdhauwe@silverfox.be' }
   s.source = { :git => 'https://github.com/louisdh/panelkit.git', :tag => s.version }
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.1'
 
   s.source_files = 'PanelKit/**/*.swift'
 end
